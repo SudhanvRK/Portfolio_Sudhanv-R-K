@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanv RK | Portfolio</title>
+    <style>
+        /* Modern Dark Theme Palette */
+        :root {
+            --bg-dark: #0f172a;       /* Deep Navy/Black */
+            --card-bg: #1e293b;       /* Slate Gray */
+            --accent-blue: #38bdf8;   /* Bright Sky Blue */
+            --text-main: #f1f5f9;     /* Off-white */
+            --text-dim: #94a3b8;      /* Muted Gray */
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent-blue);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin-top: 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            overflow: hidden;
+            padding: 30px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: var(--accent-blue);
+            border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .project {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent-blue);
+            border-radius: 4px;
+            transition: transform 0.2s ease;
+        }
+
+        .project:hover {
+            transform: translateX(5px);
+            background: rgba(15, 23, 42, 0.8);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        ul li::before {
+            content: "▹";
+            color: var(--accent-blue);
+            margin-right: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: var(--accent-blue);
+            font-weight: bold;
+            padding: 10px 15px;
+            border: 1px solid var(--accent-blue);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: var(--accent-blue);
+            color: var(--bg-dark);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SUDHANV RK</h1>
+        <p>Student | Designer | Video Editor</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I am Sudhanv Rahul Kavishwar. I specialize in <strong>CAD Design</strong> and <strong>Video Editing</strong>. I have a passion for deconstructing complex systems and rebuilding them through digital design.</p>
+        </section>
+
+        <section>
+            <h2>Technical Interests</h2>
+            <ul>
+                <li>Fusion Autodesk (3D Modeling)</li>
+                <li>DaVinci Resolve (Color Grading & Editing)</li>
+                <li>Graphic Design & Poster Making</li>
+                <li>Gaming & eSports Analysis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>3D Modeling of a Scooter Chassis</h3>
+                <p>Designed a structurally sound chassis focused on weight distribution and material efficiency using Fusion 360.</p>
+            </div>
+
+            <div class="project">
+                <h3>Belt Drive System Presentation</h3>
+                <p>Created a visual breakdown and poster presentation explaining the mechanical advantages of belt drive systems.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Connect With Me</h2>
+            <div class="social-links">
+                <a href="https://github.com/SudhanvRK" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/sudhanv-kavishwar-b02a21363" target="_blank">LinkedIn</a>
+                <a href="mailto:5143709.sudhanvrk@gmail.com">Email Me</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sudhanv RK • Built with Code & Passion</p>
+    </footer>
+
+</body>
+</html>
